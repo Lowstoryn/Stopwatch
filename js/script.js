@@ -106,3 +106,7 @@ function reset(){
     time_el.innerText= '00:00:00';
 
 }
+
+//switch
+const audio = new Audio();
+audio.src = "./wav/click.wav";
